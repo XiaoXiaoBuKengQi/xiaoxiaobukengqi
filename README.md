@@ -1,80 +1,44 @@
-<p align="center">
-    <h2 align="center">Violet Jekyll Template - <a href="http://sergiokopplin.github.io/violet/">Demo</a> · <a href="https://travis-ci.org/sergiokopplin/violet"><img src="https://travis-ci.org/sergiokopplin/violet.svg?branch=gh-pages" alt="Build Status" /></a></h2>
-</p>
+Demo: [http://webjeda.com/karna](http://webjeda.com/karna)
 
-<p align="center">A purple theme for girls and boys.</p>
+# Installation: 
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
-<p align="center"><strong>Inspiration</strong>: <a href="http://cyberglot.me">Ju Gonçalves</a></p>
+Watch my video on instlallation
+<iframe class="video" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0?rel=0" frameborder="0" allowfullscreen></iframe>
 
-***
+## How to delete old **gh-pages** branch?
+After forking the repository, click on **branches**.
 
-<p align="center">
-    <b><a href="README.md#what-has-inside">What has inside?</a></b>
-    |
-    <b><a href="README.md#setup">Setup?</a></b>
-    |
-    <b><a href="README.md#settings">Settings</a></b>
-    |
-    <b><a href="README.md#tests">Tests</a></b>
-    |
-    <b><a href="README.md#donate">Donate</a></b>
-    |
-    <b><a href="README.md#problems">Problems</a></b>
-</p>
+![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch.png)
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/sergiokopplin/violet/gh-pages/violet.png" />
-</p>
+Delete ``gh-pages`` branch.
+![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch-2.png)
 
-## What has inside?
+You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
 
-- [Jekyll](https://jekyllrb.com/) and [Sass](http://sass-lang.com/)
-- Tests with [Travis](https://travis-ci.org/)
-- No JS. :sunglasses:
+![create gh-pages branch](http://blog.webjeda.com/images/create-gh-pages-branch.JPG)
 
-## Setup
+Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
 
-0. :star: to the project. :metal:
-1. [Install Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
-2. Fork the project [Violet](https://github.com/sergiokopplin/violet/fork)
-3. Edit `_config.yml` with your data.
-4. `bundle install`
-5. `bundle exec jekyll serve`
-6. open in your browser: `http://localhost:4000`
+This process will host the theme as a **Project Page**. You can also download the files for local development. 
 
-## Settings
+The default theme will look like this
 
-You must fill some informations on `_config.yml` to customize your site.
+![webjeda karna jekyll theme](/images/karna-jekyll-theme-screenshot.png)
 
-```
-name: Jane Doe
-bio: 'A Girl who travels the world eating noodles'
-...
 
-and lot of other options.
-```
 
-## Tests
+A sample post would look like this
 
-You can test your app with:
+![webjeda karna jekyll theme sidebar](/images/post.png)
 
-```bash
-bundle exec htmlproofer ./_site
-````
 
-## Donate
+This theme is made especially for smartphones.
 
-If you liked my work, buy me a coffee <3
+![webjeda karna responsive jekyll theme](/images/karna-responsive-jekyll-theme.png)
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U7B6UM6QWLG7E)
+# Development
+Make changes to the **master** branch and create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
 
-## Problems?
-
-Tell me on github or open a [issue](https://github.com/sergiokopplin/violet/issues/new).
-
-#### Inspirations:
-- [Ju Gonçalves](http://cyberglot.me/)
-
----
-
-[MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
+# License
+MIT License
